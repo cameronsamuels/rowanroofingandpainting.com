@@ -280,6 +280,6 @@ nav li:last-child a:hover, nav li:last-child a:active {
   }
   header {
     display: block;
-    padding: 10px 5%;
+    padding: 20px 5%;
   }
 }
