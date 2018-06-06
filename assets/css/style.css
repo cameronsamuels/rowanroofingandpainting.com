@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
 *,*:before,*:after {
   box-sizing: border-box;
 }
@@ -8,13 +9,10 @@ html {
 body {
   height: 100%;
   background: #fff;
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  line-height: 32px;
   letter-spacing: 0px;
   color: #151616;
   -webkit-text-size-adjust: 100%;
-  font: 16px/1.6 sans-serif;
+  font: 16px/1.6 "Arimo", sans-serif;
   margin: 0;
 }
 main,nav,section {
