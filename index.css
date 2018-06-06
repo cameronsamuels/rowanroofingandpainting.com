@@ -1,0 +1,23 @@
+body {
+  height: 100vh;
+  background: url(./assets/images/home-bg.jpg) top/cover no-repeat;
+}
+main {
+  text-align: center;
+}
+main section {
+  display: inline-block;
+  margin-top: 6vh;
+  padding: 30px;
+  background: rgba(0,0,0,.6);
+}
+h1, h2 {
+  color: #fff;
+  line-height: 1.15;
+}
+h1 {
+  font-size: 14vmin;
+}
+h2 {
+  font-size: 4.5vmin;
+}
