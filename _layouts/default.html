@@ -14,7 +14,6 @@
       <div class="navigation">
         <button class="navigation-toggle icon">Menu</button>
         <nav><ul>
-          <li><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>
           <li><a href="/services">Services</a></li>
           <li><a href="/testimonials">Testimonials</a></li>
@@ -31,8 +30,10 @@
       document.querySelector(".navigation").addEventListener("click", function() {
         $(".navigation").toggleClass("open");
       });
-      var pages = ["", "about", "services", "testimonials", "gallery", "contact"];
-      document.querySelectorAll("nav li")[pages.indexOf(window.location.pathname.toString().replace("/index.html", ""))].setAttribute("class", "selected");
+      try {
+        var pages = ["about", "services", "testimonials", "gallery", "contact"];
+        document.querySelectorAll("nav li")[pages.indexOf(window.location.pathname.toString().replace("/index.html", "").replace("/", "").replace("/", ""))].setAttribute("class", "selected");
+      } catch (ex) { }
     </script>
   </body>
 </html>
