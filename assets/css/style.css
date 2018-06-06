@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Arimo');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 *,*:before,*:after {
   box-sizing: border-box;
 }
@@ -12,7 +12,7 @@ body {
   letter-spacing: 0px;
   color: #151616;
   -webkit-text-size-adjust: 100%;
-  font: 16px/1.6 "Arimo", sans-serif;
+  font: 16px/1.6 "Roboto", sans-serif;
   margin: 0;
 }
 main,nav,section {
