@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
+    <header class="open">
       <div class="companyname"><a href="/">Rowan Roofing &amp; Painting</a></div>
       <div class="navigation">
         <button class="navigation-toggle icon">Menu</button>
@@ -28,6 +28,7 @@
       {{ content }}
     </main>
     <script>
+      document.querySelector("header").setAttribute("class", "");
       document.querySelector(".navigation").addEventListener("click", function() {
         var header = document.querySelector("header");
         header.setAttribute("class", header.getAttribute("class") == "open" ? "" : "open");
