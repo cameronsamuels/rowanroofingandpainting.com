@@ -42,26 +42,26 @@ h1 {
 h2 {
   font-size: 4.5vmin;
 }
-main>div {
+main section>div {
   text-align: center;
 }
-main>div>a, main>div>div {
+main section>div>a, main section>div>div {
   margin: 5px 15px;
   color: #fff;
 }
-main>div>a {
+main section>div>a {
   display: inline-block;
   padding: 10px 20px;
   border: 3px #fff solid;
   font-size: 24px;
   font-weight: bold;
 }
-main>div>a:hover {
+main section>div>a:hover {
   background: #fff;
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-main>div>div {
+main section>div>div {
   display: block;
 }
