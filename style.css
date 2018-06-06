@@ -9,19 +9,6 @@ body {
     background: transparent;
     border-bottom: 0;
   }
-  .open .companyname a {
-    color: #000;
-  }
-  .companyname a {
-    color: #fff;
-  }
-  header:not(.open) .navigation-toggle:before, header:not(.open) .navigation-toggle:hover:before {
-    background: #fff;
-    box-shadow: 0 6px 0 #fff;
-  }
-  header:not(.open) .navigation-toggle:after, header:not(.open) .navigation-toggle:hover:after {
-    background: #fff;
-  }
 }
 main {
   text-align: center;
