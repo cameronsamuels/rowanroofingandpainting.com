@@ -4,7 +4,8 @@ body {
 }
 @media only screen and (max-width: 769px) {
   header {
-    background: rgba(255, 255, 255, .5);
+    background: transparent;
+    border-bottom: 0;
   }
 }
 main {
