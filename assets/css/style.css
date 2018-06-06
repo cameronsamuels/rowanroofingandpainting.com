@@ -161,6 +161,10 @@ nav li:last-child a:hover, nav li:last-child a:active {
   background: transparent;
 }
 @media only screen and (max-width: 769px) {
+  header {
+    display: block;
+    padding: 20px 5%;
+  }
   .companyname {
     order: 2;
     display: block;
@@ -261,11 +265,6 @@ nav li:last-child a:hover, nav li:last-child a:active {
   }
   main {
     padding: 4%;
-  }
-  header {
-    display: block;
-    padding: 20px 5%;
-    background: rgba(255, 255, 255, .5);
   }
 }
 @media only screen and (max-width: 480px) {
