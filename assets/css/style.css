@@ -145,12 +145,6 @@ nav li:last-child a:hover, nav li:last-child a:active {
   text-transform: uppercase;
   vertical-align: middle;
 }
-@media only screen and (max-width: 480px) {
-  .companyname a {
-    font-size:18.2px;
-    line-height: 21px;
-  }
-}
 .navigation {
   order: 4;
   flex: 1 1 auto;
@@ -164,7 +158,7 @@ nav li:last-child a:hover, nav li:last-child a:active {
 }
 .navigation-toggle {
   display: none;
-  background: #fff;
+  background: transparent;
 }
 @media only screen and (max-width: 769px) {
   .companyname {
@@ -229,7 +223,6 @@ nav li:last-child a:hover, nav li:last-child a:active {
     transition: all 0.5s ease;
   }
   .navigation-toggle:hover {
-    background-color: #fff;
     border: 0;
   }
   .navigation-toggle:hover:before {
@@ -238,9 +231,6 @@ nav li:last-child a:hover, nav li:last-child a:active {
   }
   .navigation-toggle:hover:after {
     background: #2b3040;
-  }
-  .open .navigation-toggle {
-    background-color: #fff;
   }
   .open .navigation-toggle:before {
     margin-top: 21px;
@@ -267,8 +257,15 @@ nav li:last-child a:hover, nav li:last-child a:active {
   .open nav {
       display: block;
       padding-top: 10px;
-      border-top: 1px solid #e8e8e8;
       text-align: center;
+  }
+  main {
+    padding: 4%;
+  }
+  header {
+    display: block;
+    padding: 20px 5%;
+    background: rgba(255, 255, 255, .5);
   }
 }
 @media only screen and (max-width: 480px) {
@@ -276,12 +273,9 @@ nav li:last-child a:hover, nav li:last-child a:active {
     padding: 3%;
   }
 }
-@media only screen and (max-width: 769px) {
-  main {
-    padding: 4%;
-  }
-  header {
-    display: block;
-    padding: 20px 5%;
+@media only screen and (max-width: 480px) {
+  .companyname a {
+    font-size:18.2px;
+    line-height: 21px;
   }
 }
