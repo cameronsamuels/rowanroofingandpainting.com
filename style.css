@@ -1,11 +1,19 @@
 body {
-  height: 100vh;
   background: url(./assets/images/home-bg.jpg) top/cover no-repeat;
 }
 @media only screen and (max-width: 769px) {
   header {
     background: transparent;
     border-bottom: 0;
+  }
+  .open .companyname a {
+    color: #000;
+  }
+  .companyname a {
+    color: #fff;
+  }
+  .navigation-toggle:before, .navigation-toggle:before:hover {
+    box-shadow: 0 6px 0 #fff;
   }
 }
 main {
