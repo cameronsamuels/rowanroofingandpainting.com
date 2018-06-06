@@ -1,0 +1,43 @@
+<!DOCTYPE html><html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	  <title>Rowan Roofing & Painting</title>
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="contact.css">
+    <script src="../assets/js/jquery.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="companyname"><a href="/">Rowan Roofing &amp; Painting</a></div>
+      <div class="navigation">
+        <button class="navigation-toggle icon">Menu</button>
+        <nav><ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/testimonials">Testimonials</a></li>
+          <li><a href="/gallery">Gallery</a></li>
+          <li class="selected"><a href="/contact">Contact</a></li>
+          <li><a href="tel:281-344-0018">(281) 344-0018</a></li>
+        </ul></nav>
+      </div>
+    </header>
+    <main>
+      <h1>CONTACT</h1>
+      <hr>
+      <p>
+        <a href="tel:281-344-0018">Phone: (281) 344-0018</a>
+        <a href="mailto:rowanroofing@yahoo.com">Email: rowanroofing@yahoo.com</a>
+      </p>
+      <hr>
+      <iframe src="https://goo.gl/forms/Fe2q4YVj4WAwt3cl2"></iframe>
+    </main>
+    <script>
+      document.querySelector(".navigation").addEventListener("click", function() {
+        $(".navigation").toggleClass("open");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+h1 {
+  text-align: center;
+  font-size: 350%;
+  margin: 12px 0 0;
+  padding: 0;
+}
+main p a {
+  width: 280px;
+	border-radius: 3px;
+  background: #2196F3;
+  margin: 7px;
+  padding: 20px 10px;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px rgba(0,0,0,.3);
+  line-height: 1;
+  text-decoration: none !important;
+  transition: -webkit-filter .5s;
+  cursor: pointer;
+}
+main p a:hover {
+  -webkit-filter: brightness(90%);
+}
+main p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+iframe {
+  width: 100%;
+  height: 1344px;
+  border: 0;
+}
