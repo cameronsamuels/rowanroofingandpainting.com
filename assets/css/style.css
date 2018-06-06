@@ -124,6 +124,8 @@ nav li:last-child a {
   color: #fff;
   font-size: 95%;
   line-height: 1;
+  padding: 10px 20px;
+  display: inline-block;
 }
 nav li:last-child a:hover, nav li:last-child a:active {
   background: #555;
