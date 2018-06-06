@@ -1,7 +1,13 @@
+html {
+  overflow: hidden;
+}
 body {
   background: url(./assets/images/home-bg.jpg) top/cover no-repeat;
 }
 @media only screen and (max-width: 769px) {
+  main {
+    height: 100vh;
+  }
   header {
     background: transparent;
     border-bottom: 0;
