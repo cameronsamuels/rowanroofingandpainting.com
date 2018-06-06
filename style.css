@@ -12,8 +12,12 @@ body {
   .companyname a {
     color: #fff;
   }
-  .navigation-toggle:before, .navigation-toggle:before:hover {
+  header:not(.open) .navigation-toggle:before, header:not(.open) .navigation-toggle:hover:before {
+    background: #fff;
     box-shadow: 0 6px 0 #fff;
+  }
+  header:not(.open) .navigation-toggle:after, header:not(.open) .navigation-toggle:hover:after {
+    background: #fff;
   }
 }
 main {
