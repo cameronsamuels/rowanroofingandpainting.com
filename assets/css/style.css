@@ -263,6 +263,9 @@ nav li:last-child a:hover, nav li:last-child a:active {
       padding-top: 10px;
       text-align: center;
   }
+  .open {
+    background: #fff;
+  }
   main {
     padding: 4%;
   }
