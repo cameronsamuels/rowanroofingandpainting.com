@@ -40,6 +40,7 @@ main section>div>a {
   display: inline-block;
   position: relative;
   padding: 10px 20px;
+  color: transparent;
   border: 3px #fff solid;
   font-size: 24px;
   font-weight: bold;
@@ -49,6 +50,7 @@ main section>div>a {
 main section>div>a:before {
   content: "Get A Free Estimate";
   position: absolute;
+  color: #fff;
   z-index: 2;
 }
 main section>div>a:hover {
