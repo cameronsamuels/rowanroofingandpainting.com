@@ -53,9 +53,8 @@ main section>div>a:before {
   color: #fff;
   z-index: 2;
 }
-main section>div>a:hover {
+main section>div>a:hover:before {
   color: #000;
-  text-decoration: none;
 }
 main section>div>a:after {
   content: "";
