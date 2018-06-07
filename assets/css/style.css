@@ -85,11 +85,11 @@ a:active,a:hover {
   text-decoration: underline;
 }
 nav {
-  width: 100%;
   z-index: 9999;
   padding: 0;
   margin-left: 0;
   list-style: none;
+  display: inline-block;
 }
 nav:after {
   content: "";
@@ -115,19 +115,21 @@ nav li a:hover {
   cursor: pointer;
   color: #555;
 }
-nav li.selected > a {
+nav li.selected>a {
   color: #2b3040;
 }
-nav li:last-child a {
+.navigation>a {
   background: #777;
   color: #fff;
   font-size: 95%;
   line-height: 1;
   padding: 10px 20px;
   display: inline-block;
+  font-weight: bold;
 }
-nav li:last-child a:hover, nav li:last-child a:active {
+.navigation>a:hover, .navigation>a:active {
   background: #555;
+  text-decoration: none;
 }
 .companyname {
   order: 2;
@@ -160,9 +162,6 @@ nav li:last-child a:hover, nav li:last-child a:active {
   background: transparent;
 }
 @media only screen and (max-width: 769px) {
-  nav li:last-child a {
-    margin: 10px;
-  }
   header {
     display: block;
     padding: 20px 5%;
@@ -189,6 +188,7 @@ nav li:last-child a:hover, nav li:last-child a:active {
     order: 4;
     margin: 0;
     width: 100%;
+    text-align: center;
   }
   .navigation-toggle {
     display:block;
