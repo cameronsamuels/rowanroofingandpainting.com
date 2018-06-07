@@ -19,7 +19,6 @@
           <li><a href="/about">About</a></li>
           <li><a href="/services">Services</a></li>
           <li><a href="/gallery">Gallery</a></li>
-          <li><a href="https://cameronsamuels.com/placeholder/?Coming%20Soon">Testimonials</a></li>
           <li><a href="/contact">Contact</a></li>
         </ul></nav>
         <a href="tel:281-344-0018">(281) 344-0018</a>
@@ -35,7 +34,7 @@
         header.setAttribute("class", header.getAttribute("class") == "open" ? "" : "open");
       });
       try {
-        var pages = ["about", "services", "gallery", "testimonials", "contact"];
+        var pages = ["about", "services", "gallery", "contact"];
         document.querySelectorAll("nav li")[pages.indexOf(window.location.pathname.toString().replace("/index.html", "").replace("/", "").replace("/", ""))].setAttribute("class", "selected");
       } catch (ex) { }
     </script>
